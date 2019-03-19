@@ -27,7 +27,7 @@ h1, h2, h3 {
 
     &.sm-heading {
         margin-bottom: 2rem;
-        padding: 0.2rem 1rem;
+        padding: 0.2rem 2rem;
         //background: rgba(lighten($primary-color, 2), 0.5);
     }
 }
@@ -55,6 +55,7 @@ main {
 
     .icons {
         margin-top: 1rem;
+        padding-left: 2rem;
 
         a {
             padding: 0.4rem;
@@ -73,6 +74,8 @@ main {
         }
     }
 }
+
+//about page
 
 .about-info {
     display: grid;
@@ -133,6 +136,36 @@ main {
         }
     }
 }
+
+//contact page
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+
+    div {
+        font-size: 2rem;
+        border: 3px #fff solid;
+        padding: 1.5rem 2.5rem;
+        margin-bottom: 3rem;
+        @include easeOut;
+
+        &:hover {
+            padding: 0.5rem 1.5rem;
+            background: $secondary-color;
+            color: set-text-color($highlight-color);
+
+            span {
+                color: #fff;
+            }
+        }
+    }
+}
+
+//button styles
 
 .btn {
     display: block;
