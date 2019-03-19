@@ -29,7 +29,7 @@ h1, h2, h3 {
     &.sm-heading {
         margin-bottom: 2rem;
         padding: 0.2rem 1rem;
-        background: rgba(lighten($primary-color, 2), 0.5);
+        //background: rgba(lighten($primary-color, 2), 0.5);
     }
 }
 
@@ -51,6 +51,7 @@ header {
 main {
     padding: 4rem;
     height: 100%;
+    text-align: left;
 
     .icons {
         margin-top: 1rem;
@@ -59,7 +60,7 @@ main {
             padding: 0.4rem;
 
             &:hover {
-                color: $secondary-color;
+                color: $highlight-color;
                 @include easeOut();
             }
         }

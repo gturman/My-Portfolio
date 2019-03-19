@@ -39,14 +39,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #232323;
+    background: #171717;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #303030;
+    background: #242424;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -56,14 +56,14 @@
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 3px #1a99ee; }
+      border: solid 3px #1aceee; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #1a99ee; }
+      color: #1aceee; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -75,7 +75,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #1a99ee; }
+      color: #1aceee; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -122,7 +122,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #303030;
+  background: #242424;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -139,7 +139,7 @@ body {
       right: 0;
       width: 100%;
       height: 100%;
-      background: rgba(48, 48, 48, 0.9);
+      background: rgba(36, 36, 36, 0.1);
       z-index: -1; }
 
 h1, h2, h3 {
@@ -149,8 +149,7 @@ h1, h2, h3 {
     font-size: 6rem; }
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
-    background: rgba(53, 53, 53, 0.5); }
+    padding: 0.2rem 1rem; }
 
 a {
   color: #fff;
@@ -162,17 +161,18 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #1a99ee; }
+  color: #1aceee; }
 
 main {
   padding: 4rem;
-  height: 100%; }
+  height: 100%;
+  text-align: left; }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #1a99ee;
+        color: #fd135a;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
